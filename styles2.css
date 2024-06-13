@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color:white ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.container{
+    background-color: aliceblue;
+     height: 500px;
+     width: 450px;
+     position: relative ;
+     border-radius: 10px;
+     padding: 100px;
+     box-sizing: border-box;
+     box-shadow: 5px 5px 50px rgb(181, 167, 167) ;
+     text-align: center;
+}
+.Hero-img{
+    height: 100px;
+    width: 100px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRseRj5MjxLYtgPrmGHS01YBytPjIkGKk8Zaw&s);
+    border-radius: 50%;
+    margin: auto; 
+    box-shadow: 3px 3px 25px rgb(181, 167, 167);  
+}
+.Hero-topic{
+    color: blue;
+} 
+.inputs{
+    text-align: left;
+    margin-top: 20px;
+}
+input,button,label{
+    display: block;
+    width: 100%  ;
+    border: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 10px;
+    color: blue;
+}
+input{
+    background: white;
+    padding: 10px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px rgb(181, 167, 167);
+}
+button{
+    color:white;
+    background-color: rgb(80, 80, 168);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(181, 167, 167);
+}
